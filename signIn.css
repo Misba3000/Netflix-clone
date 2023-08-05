@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif ,'Bebas Neue';
+    background-blend-mode: darken;
+    overflow-x: hidden;
+    background-color: #000;
+    list-style-type: none;
+}
+.logo{
+    padding: 2% ;
+    width:150px ;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+}
+.brand-logo{
+    height: 100%;
+    width:100% ;
+}
+.navbar{
+    padding: 2% 5%;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.container{
+    top: 5rem;
+    position: absolute;
+    margin-left: 29%;
+    margin-top: 1%;
+    width: 440px;
+    height: 655px;
+    background: #000;
+}
+.container h1{
+    color: #fff;
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 2rem;
+}
+input{
+    /* margin-top: 20px; */
+    margin-left: 50px;
+    width: 320px;
+    height: 47px;
+    background-color: #333;
+    border-radius: 3px;
+    border: none;
+    font-size: 1rem;
+}
+input::placeholder{
+    font-size: 17px;
+    margin-left: 15px;
+    padding: 12px;
+}
+input[type=submit]{
+    width: 320px;
+    height: 45px;
+    background-color:  #dc030f;
+    color: #fff;
+    margin-top: 45px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+input[type=checkbox]{
+    width: 25px;
+    height: 18px;
+    border-radius: 5px;
+}
+label{
+    color: rgb(125, 119, 119);
+}
+.form{
+    margin-top: 2rem;
+}
+input[type=password]{
+    margin-top: 1rem;
+}
+.form a{
+    float: right;
+    margin-right: 64px;
+    color: rgb(172, 164, 164);
+    text-decoration: none;
+}
+.content{
+    position: absolute;
+    margin-top: 100px;
+    font-size: 9px;
+    margin-left: 55px;
+}
+.content h2{
+    color: rgb(125, 119, 119);
+    font-weight: lighter;
+    font-size: 15px;
+}
+.content h3{
+    color: rgb(125, 119, 119);
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 2rem;
+}
+.background-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative; 
+}
+.hero-bg-overlay{
+    position: absolute;
+    inset: 0;/*because we want our overlay on top of image and conataining whole width i.e , inset is eqal to top:0 ,  right:0 , left:0 ,  bottom:0 */
+    height: 130vh;
+    width: 100%;
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%);   
+}
+.hero-bg-img-container{
+    height: 130vh;
+    width: 100%;
+}
+.container a{
+    color: #fff;
+    text-decoration: underline;
+}
+footer{
+    position: absolute;
+    top: 4.2rem;
+    color: white;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    margin-top: 45rem;
+    bottom: 0;
+
+}
+.F-container{
+    margin-left: 20rem;
+    margin-top: 2rem;
+    bottom: 0;
+}
+
+    
+.footer .F-container .foot-conatiner .item-1{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .F-container .foot-conatiner .item-2 {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .F-container .foot-conatiner li{
+    display: flex;
+}
+
+.footer .F-container .foot-conatiner li a{
+    
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    color: #918d8d;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-decoration: underline grey;
+}
+footer .F-container p{
+    margin-top: 2rem;
+    color: rgb(172, 164, 164);
+}

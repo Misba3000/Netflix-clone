@@ -1,0 +1,20 @@
+1.you can do everything
+just push yourself
+
+2.if dont then no one loose nothiing .you are the one who gonna loose
+
+3.for later use of forward arrow :
+<i class="fa-regular fa-angle-right"></i>
+
+4.absolute taki vo upar aaye
+5.z-index taki vo sabse upar aaye.
+
+6.flex-direction: column; taki sb ek ke niche ek aaye
+
+7.sometimes position :absolute ke saath top property is also needed
+
+8.transform : translate(-50%,-50%)  this property add few spaces on left and few spaces on right and took content in middle [i haven't use this property because i am making it as new netflix website]
+
+9.position: absolute asli ki margine:auto nahi chalat
+
+10.opesity is used to hind text same time use height:0; property
